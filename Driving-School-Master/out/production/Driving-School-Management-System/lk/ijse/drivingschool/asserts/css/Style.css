@@ -1,0 +1,163 @@
+.sidebar{
+    -fx-background-color: #2b519a;
+}
+.button {
+    -fx-background-radius: 10px;
+}
+.parent {
+    -fx-background-color: #F5F5F7;
+}
+.top-bar{
+    -fx-background-color: #D9D9D9;
+}
+.font-color{
+    -fx-background-color: #546472;
+}
+
+
+.button3
+{
+// -fx-background-color :  #023c40;
+    -fx-background-color :  #24344c;
+    -fx-background-radius :  0 0 0 0;
+}
+.button3:hover
+{
+// -fx-background-color : #524A7B ;
+    -fx-background-color : #2a3c58 ;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 6px 0px 0px;
+}
+.button3:pressed
+{
+//  -fx-background-color : #2F2B43 ;
+    -fx-background-color : #3a4f6a   ;
+}
+
+.menuItem:hover{
+    -fx-border-color: #660099;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+
+.sidebarItem:hover{
+    -fx-background-color: #146886;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 6px 0px 0px;
+}
+
+.button99
+{
+    -fx-background-color :  #FFFF;
+//  -fx-background-color :  #24344c;
+    -fx-background-radius :  0 0 0 0;
+}
+.button99:hover
+{
+// -fx-background-color : #f4f4f9 ;
+    -fx-background-color : #e3e9f6 ;
+//  -fx-background-color : #2a3c58 ;
+//  -fx-border-color: WHITE;
+    -fx-border-color: #66696b;
+    -fx-border-width: 0px 4px 0px 0px;
+}
+.button99:pressed {
+    -fx-background-color: #dddddd;
+//-fx-background-color: #3a4f6a;
+}
+
+.button30
+{
+// -fx-background-color :  #023c40;
+    -fx-background-color :  #24344c;
+    -fx-background-radius :  0 0 0 0;
+}
+.button30:hover
+{
+// -fx-background-color : #524A7B ;
+    -fx-background-color : #2a3c58 ;
+    -fx-border-color: WHITE;
+// -fx-border-width: 0px 6px 0px 0px;
+}
+.button30:pressed {
+/ / -fx-background-color: #2F2B43;
+    -fx-background-color: #3a4f6a;
+}
+
+
+.button0
+{
+// -fx-background-color :  #24344c;
+    -fx-background-color :   #165990;
+    -fx-background-radius :  0 0 0 0;
+}
+.button0:hover
+{
+// -fx-background-color : #f4f4f9 ;
+    -fx-background-color : #2a3c58 ;
+//  -fx-text-fill: White;
+//  -fx-background-color : #2a3c58 ;
+//  -fx-border-color: WHITE;
+    -fx-border-color: #DAF7F3;
+    -fx-border-width: 0px 4px 0px 0px;
+}
+.button0 :pressed {
+//  -fx-background-color: #3a4f6a;
+    -fx-background-color: White;
+}
+
+
+.secondary-color{
+    -fx-background-color: #dddddd;
+}
+
+.text-color{
+    -fx-text-fill: #4d4d4d;
+}
+.round-border{
+    -fx-background-radius: 50;
+}
+
+.dashboard-color{
+    -fx-background-color: #165990;
+}
+.dashboardBack-color{
+    -fx-background-color: #165990;
+}
+
+
+.buttonCancle
+{
+    -fx-background-color : #ffff;
+    -fx-background-radius :  0 0 0 0;
+    -fx-text-fill: #000;
+    -fx-border-color: black;
+
+}
+.buttonCancle:hover
+{
+
+    -fx-background-color : #ffff ;
+    -fx-border-color: black;
+
+}
+.buttonCancle:pressed {
+    -fx-background-color: #165990;
+}
+
+
+
+.box1-color{
+    -fx-background-color: #FF9210;
+}
+
+
+.box2-color{
+    -fx-background-color: #2253DD;
+}
+
+
+.box3-color{
+    -fx-background-color: #95C221;
+}
+
+

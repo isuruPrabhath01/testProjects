@@ -1,0 +1,51 @@
+.primary-color{
+
+    //-fx-background-color: #2B2B2B;           //-fx-background-color: #121212;    //-fx-background-color: #383838;
+    //-fx-background-color: #2B2B2B;
+    -fx-background-color: #0A1929;
+    -fx-text-fill: WHITE;
+}
+
+.dashboard-color{
+    //-fx-background-color: #121212;
+    -fx-background-color: #0A1929;
+}
+
+.dashboardBack-color{
+   // -fx-background-color: #3C3F41;
+    -fx-background-color: #001E3C;
+}
+
+.secondary-color{
+   // -fx-background-color: #1D1D1D;
+   // -fx-background-color: #3C3F41;
+    -fx-background-color: #001E3C;
+    -fx-text-fill: WHITE;
+}
+
+.round-border{
+    -fx-background-radius: 100;
+}
+
+.button0 {
+    -fx-background-color :   #001E3C;
+    -fx-background-radius :  0 0 0 0;
+    -fx-text-fill: #ffff;
+}
+.button0:hover {
+    -fx-border-color: #DAF7F3;
+    -fx-border-width: 0px 4px 0px 0px;
+}
+
+.button0 :pressed {
+    -fx-background-color: White;
+}
+
+
+.text-field{
+    -fx-text-fill: #ffff;
+}
+
+.text-color{
+    -fx-text-fill: #ffff;
+}

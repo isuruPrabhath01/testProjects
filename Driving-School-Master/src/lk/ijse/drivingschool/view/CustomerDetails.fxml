@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="customerPane" prefHeight="740.0" prefWidth="1115.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.drivingschool.controller.CustomerDetailsController">
+   <children>
+      <AnchorPane fx:id="rootCustomers" layoutX="-1.0" prefHeight="80.0" prefWidth="1120.0" styleClass="secondary-color">
+         <children>
+            <Text fill="#165990" layoutX="36.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customers">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="13.0" layoutY="162.0" prefHeight="856.0" prefWidth="1104.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1028.0" prefWidth="1129.0" styleClass="primary-color">
+               <children>
+                  <TableView fx:id="tblCustomers" layoutY="-3.0" prefHeight="1025.0" prefWidth="1084.0">
+                    <columns>
+                      <TableColumn fx:id="colId" prefWidth="238.0" text="ADMISSION NUMBER" />
+                        <TableColumn fx:id="colName" minWidth="0.0" prefWidth="240.0" text="NAME" />
+                        <TableColumn fx:id="colNumber" prefWidth="325.0" text="CONTACT NUMBER" />
+                        <TableColumn fx:id="colLicenseType" minWidth="0.0" prefWidth="196.0" text="LICENSE TYPE" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="961.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/icons/%5BCITYPNG.COM%5DSearch%20Explore%20White%20Icon%20Transparent%20PNG%20-%204000x4000.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="rootSearchCustomers" alignment="CENTER" layoutX="350.0" layoutY="83.0" prefHeight="45.0" prefWidth="734.0" spacing="5.0" style="-fx-background-color: white; -fx-background-radius: 5;">
+         <padding>
+            <Insets bottom="20.0" left="5.0" />
+         </padding>
+         <children>
+            <FontAwesomeIconView glyphName="SEARCH" opacity="0.5" size="20" translateY="10.0" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="txtSearchCustomer" onAction="#filterNameCustomerOnAction" onKeyReleased="#filterNameCustomer" prefHeight="25.0" prefWidth="335.0" promptText="Search Customer" styleClass="text-field-search" translateY="10.0" HBox.hgrow="ALWAYS" />
+            <FontAwesomeIconView glyphName="SEARCH" opacity="0.5" size="20" translateY="10.0" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="txtSearchNumber" layoutX="233.0" layoutY="10.0" onKeyReleased="#filterNumberCustomer" prefHeight="25.0" prefWidth="329.0" promptText="Search number" styleClass="text-field-search" translateY="10.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <JFXButton layoutX="949.0" layoutY="20.0" onAction="#btnNewCustomer" onMouseClicked="#showDialogddCustomer" prefHeight="39.0" prefWidth="131.0" styleClass="action-button" text="New Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="PLUS" size="20" />
+         </graphic>
+      </JFXButton>
+   </children>
+   <stylesheets>
+      <URL value="@../asserts/css/Start.css" />
+      <URL value="@../asserts/css/LightTheme.css" />
+      <URL value="@../asserts/css/Style.css" />
+   </stylesheets>
+</AnchorPane>

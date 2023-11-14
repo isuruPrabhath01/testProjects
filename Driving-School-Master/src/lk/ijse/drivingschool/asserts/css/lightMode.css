@@ -1,0 +1,15 @@
+.primary-color{
+    -fx-background-color: #ffff;
+}
+
+.dashboard-color{
+    -fx-background-color: #165990;
+}
+
+.secondary-color{
+    -fx-background-color: #dddddd;
+}
+
+.round-border{
+    -fx-background-radius: 100;
+}
